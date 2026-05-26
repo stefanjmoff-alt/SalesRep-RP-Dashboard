@@ -179,7 +179,7 @@ function requireAuth(req, res, next) {
 
 // Routes
 app.get('/', requireAuth, (req, res) => {
-  const filePath = path.join(__dirname, 'public', 'dashboard_SRP.html');
+  const filePath = path.join(__dirname, 'dashboard_SRP.html');
   res.sendFile(filePath, (err) => {
     if (err) {
       console.error('Error sending file:', err);
