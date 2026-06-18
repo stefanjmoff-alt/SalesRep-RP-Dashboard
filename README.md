@@ -1,33 +1,68 @@
-# SalesRep-RP-Dashboard
+Relevant Play — Rep Sales Analysis
+Shopify order export · 5 active rep firms
+—
+Rep Revenue
+—
+Rep Orders
+DATE RANGE
+→
 
-Relevant Play Sales Rep Dashboard — password protected, hosted on Railway.
+Last 30d
+Last 90d
+YTD
+2025
+2024
+All Time
 
-## Updating the Dashboard
+Overview
+Total Toys
+Jesa Gift & Toy
+Sandy Ruben
+Toyology
+Toyservice SW
+● SKU Performance
+TOTAL REP REVENUE
+—
+—
+AVG ORDER VALUE
+—
+Per rep order
+TOP FIRM
+—
+—
+TOP REP
+—
+—
+REVENUE BY REP FIRM
 
-1. Get the new `dashboard_SRP.html` file from Claude
-2. Replace `public/dashboard_SRP.html` with the new file
-3. Commit and push to GitHub — Railway auto-deploys
+MONTHLY REVENUE BY FIRM
 
-```bash
-git add public/dashboard_SRP.html
-git commit -m "Update dashboard data"
-git push
-```
 
-## Local Development
+TERRITORY COVERAGE MAP — ALL FIRMS
+Loading map…
 
-```bash
-npm install
-node server.js
-```
+Total Toys
 
-Then open http://localhost:3000
+Jesa Gift & Toy
 
-## Railway Environment Variables
+Sandy Ruben
 
-Set these in Railway → Variables:
+Toyology
 
-| Variable | Value |
-|---|---|
-| `DASHBOARD_PASSWORD` | Your chosen password |
-| `SESSION_SECRET` | Any long random string |
+Toyservice SW
+
+Unassigned
+REP LEADERBOARD — ALL FIRMS
+
+NO SALES IN RANGE
+
+NO REP REPORTED
+#
+REP
+FIRM
+ORDERS
+REVENUE
+AVG ORDER
+SHARE OF FIRM
+
+© 2026 Relevant Play™  ·  Confidential — For authorized internal use only. Do not share without written authorization.
